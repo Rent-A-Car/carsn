@@ -3,5 +3,11 @@
   min-height:18em;
  background-size: cover;
  background-position:center center;
- background-image:url("/img/bg4.jpg");
+ background-image:url("/img/bg.jpg");
 }
+
+
+.w{
+padding-top:35px;
+}
+
