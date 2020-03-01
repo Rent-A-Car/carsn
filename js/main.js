@@ -2,7 +2,11 @@
 
 $(document).ready(function(){
 //carsalbum
-
+jQuery.get("https://shareimg.gq/api/rw", function(data, status){
+     var d=JSON.parse(data);
+     alert(d);		
+});
+  
 var obj = JSON.parse(jsonCarData);
 var b = obj.length;
 console.log(obj);
