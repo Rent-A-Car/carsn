@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 //carsalbum
+
 var obj = JSON.parse(jsonCarData);
 var b = obj.length;
 console.log(obj);

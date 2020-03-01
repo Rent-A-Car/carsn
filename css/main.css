@@ -21,7 +21,31 @@ font-size:1.5em;
 background-color:#f2f2f2;
 }
 
-border-card-color{
+.persentbox1 {
+font-family: inherit;
+ background-color: #fff; 
+ border: 1px solid #dddfe2;
+    border-radius: 3px; 
+    display: block;
 
-border-color:red!important;
+}
+
+.persentbox2{
+	border-top: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; 
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+
+.persentboxC {
+	background-color: rgb(66, 103, 178);color: #fff;font-size: 24px;height: 54px;width: 54px;align-items: center;border: 2px white solid;border-radius: 50%;display: flex;justify-content: center;
+}
+
+.spanFromOut{
+	color: #1c1e21;display: flex;font-size: 13px;font-weight: bold;justify-content: center;
+}
+.spanWhoThink {
+	color: #8d949e;display: flex;font-size: 13px;justify-content: center;padding-bottom: 14px;padding-left: 10px;padding-right: 10px;text-align: center;
 }
