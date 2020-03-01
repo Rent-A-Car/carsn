@@ -11,9 +11,6 @@ for (var i=0; i<b; i++){
     CONTAINER.append('<div id="ClCa-'+i.toString()+'" class="col-md-4"></div>');
 
 
-
-
-
 }
 
 
