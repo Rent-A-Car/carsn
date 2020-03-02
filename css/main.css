@@ -1,3 +1,22 @@
+.COMa:link {
+  text-decoration: none;
+}
+
+.COMa:visited {
+  text-decoration: none;
+}
+
+.COMa:hover {
+  text-decoration: none;
+}
+
+.COMa:active {
+  text-decoration: none;
+}
+
+
+
+
 #homeIMG {
   width: 100%;
   min-height:18em;
