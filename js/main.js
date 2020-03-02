@@ -1,5 +1,5 @@
 //console.log(jsonCarData);
-const DEBUGNOSCRIPT = true;
+const DEBUGNOSCRIPT = 0;
 $(".nav-link").on('click', function(event){$("#navbarNav").collapse("hide");});
 $(document).ready(function(){
 //carsalbum
