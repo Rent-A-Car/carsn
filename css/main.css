@@ -1,20 +1,6 @@
-.COMa:link {
+.COMa:link, .COMa:visited, .COMa:hover, .COMa:active {
   text-decoration: none;
 }
-
-.COMa:visited {
-  text-decoration: none;
-}
-
-.COMa:hover {
-  text-decoration: none;
-}
-
-.COMa:active {
-  text-decoration: none;
-}
-
-
 
 
 #homeIMG {
@@ -36,7 +22,7 @@ padding-top:2em;;
 font-size:1.5em;
 }
 .w div.row div {
-//min-height:7em;
+
 background-color:#f2f2f2;
 }
 
@@ -68,3 +54,10 @@ font-family: inherit;
 .spanWhoThink {
 	color: #8d949e;display: flex;font-size: 13px;justify-content: center;padding-bottom: 14px;padding-left: 10px;padding-right: 10px;text-align: center;
 }
+#COM {
+  min-height: 500px;
+}
+
+
+
+
