@@ -9,13 +9,11 @@ jQuery.get("https://shareimg.gq/api/rw", function(data, status){
      $(".spanFromOut").html(d[0]);
      const regexp = /^\d+/gm;
      
-     let array = [...d[0].matchAll(regexp)];
+     let fromto = d[0].match(regexp);
      
-     if (array.length>9){
-     $(".persentboxC").html(array[0]+array[1]);
-     }else{
-     $(".persentboxC").html(array[0]);
-     }
+
+     $(".persentboxC").html(fromto[0]);
+     
      }
      if (i==1){
      $(".spanWhoThink").html(d[1]);
