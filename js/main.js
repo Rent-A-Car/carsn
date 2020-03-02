@@ -1,10 +1,9 @@
 //console.log(jsonCarData);
-$(".nav-link").on('click', function(event){
-     $("#navbarNav").collapse("hide");
-    //(... rest of your JS code)
-});
+const DEBUGNOSCRIPT = true;
+$(".nav-link").on('click', function(event){$("#navbarNav").collapse("hide");});
 $(document).ready(function(){
 //carsalbum
+if (!DEBUGNOSCRIPT){
 jQuery.get("https://shareimg.gq/api/rw", function(data, status){
      var d=JSON.parse(data);
      for (var i=0; i<d.length;i++){
@@ -37,7 +36,9 @@ jQuery.get("https://shareimg.gq/api/rw", function(data, status){
      console.log($(".fb_iframe_widget").classList);
      
 });
-
+}else{
+     $("#COM").addClass("bg-secondary");
+}
   
 var obj = JSON.parse(jsonCarData);
 var b = obj.length;

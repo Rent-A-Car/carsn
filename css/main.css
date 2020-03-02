@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
 .COMa:link, .COMa:visited, .COMa:hover, .COMa:active {
   text-decoration: none;
 }
@@ -57,7 +60,6 @@ font-family: inherit;
 #COM {
   min-height: 500px;
 }
-
 
 
 
