@@ -1,4 +1,5 @@
 //console.log(jsonCarData);
+
 const DEBUGNOSCRIPT = 0;
 $(".nav-link").on('click', function(event){$("#navbarNav").collapse("hide");});
 $(document).ready(function(){
@@ -44,9 +45,18 @@ var obj = JSON.parse(jsonCarData);
 var b = obj.length;
 
 var CONTAINER = $("#carsalbum");
+var cword = {
+"n":"<br>"
+}
 for (var i=0; i<b; i++){
+var opis = obj[i]["details"]["text"];
 
-    CONTAINER.append('<div id="ClCa-'+i.toString()+'" class="col-md-4"><div class="card mb-4 box-shadow bg-light text-center border border-dark" ><div class="card-header bg-light">Mercedes b200</div><img class="card-img-bottom" src="img/b200/b200_0.jpg" alt="Card image cap"><div class="card-body"><h5 class="card-title">Mercedes b200 2.0CDI</h5><p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p><a href="#" class="btn btn-primary">Детальние</a></div></div></div>');
+$.each(cword, function( key, value ) {
+   opis=opis.split("{"+key+"}").join(value);
+});
+
+
+    CONTAINER.append('<div id="ClCa-'+i.toString()+'" class="col-md-4"><div class="card mb-4 box-shadow bg-light text-center border border-dark" ><div class="card-header bg-light">'+obj[i]["details"]["name"]+'</div><img class="card-img-bottom" src="'+obj[i]["img"][1]+"0."+obj[i]["img"][2]+'" alt="'+obj[i]["details"]["name"]+'"><div class="card-body"><h5 class="card-title">'+obj[i]["details"]["fname"]+'</h5><p class="card-text">'+opis+'</p><a href="#" class="btn btn-primary">Подробниее</a></div></div></div>');
 
 
 }	

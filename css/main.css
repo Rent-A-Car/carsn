@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap');
+
 @font-face {
 	font-family: "Font Awesome 5 Brands";
 	font-style: normal;
 	font-weight: 400;
 	font-display: auto;
 	src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.eot");
-	src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.woff") format("woff"), url("webfonts/fa-brands-400.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.svg#fontawesome") format("svg")
+	src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.svg#fontawesome") format("svg")
 }
 .fab {
 	font-family: "Font Awesome 5 Brands"
@@ -81,3 +83,12 @@ font-family: inherit;
 
 
 
+@media only screen and (min-width: 720px){
+.contactul>li{
+font-size:1.1781em;
+}
+}
+div[id^="ClCa"] .card-header{
+font-family: 'Trade Winds', cursive;
+font-size:1.3em;
+}
