@@ -1,9 +1,29 @@
 //console.log(jsonCarData);
 
+console.log(1);
 const DEBUGNOSCRIPT = 0;
 $(".nav-link").on('click', function(event){$("#navbarNav").collapse("hide");});
-$(document).ready(function(){
+document.addEventListener('DOMContentLoaded', function(){
 //carsalbum
+var obj = JSON.parse(jsonCarData);
+var b = obj.length;
+
+var CONTAINER = $("#carsalbum");
+var cword = {
+"n":"<br>"
+}
+for (var i=0; i<b; i++){
+var opis = obj[i]["details"]["text"];
+
+$.each(cword, function( key, value ) {
+   opis=opis.split("{"+key+"}").join(value);
+});
+
+
+    CONTAINER.append('<div id="ClCa-'+i.toString()+'" class="col-md-4"><div class="card mb-4 box-shadow bg-light text-center border border-dark" ><div class="card-header bg-light">'+obj[i]["details"]["name"]+'</div><img class="card-img-bottom" src="'+obj[i]["img"][1]+"0."+obj[i]["img"][2]+'" alt="'+obj[i]["details"]["name"]+'"><div class="card-body"><h5 class="card-title">'+obj[i]["details"]["fname"]+'</h5><p class="card-text">'+opis+'</p><a href="#" class="btn btn-primary">Подробниее</a></div></div></div>');
+
+}
+
 if (!DEBUGNOSCRIPT){
 jQuery.get("https://shareimg.gq/api/rw", function(data, status){
      var d=JSON.parse(data);
@@ -41,25 +61,5 @@ jQuery.get("https://shareimg.gq/api/rw", function(data, status){
      $("#COM").addClass("bg-secondary");
 }
   
-var obj = JSON.parse(jsonCarData);
-var b = obj.length;
-
-var CONTAINER = $("#carsalbum");
-var cword = {
-"n":"<br>"
-}
-for (var i=0; i<b; i++){
-var opis = obj[i]["details"]["text"];
-
-$.each(cword, function( key, value ) {
-   opis=opis.split("{"+key+"}").join(value);
-});
-
-
-    CONTAINER.append('<div id="ClCa-'+i.toString()+'" class="col-md-4"><div class="card mb-4 box-shadow bg-light text-center border border-dark" ><div class="card-header bg-light">'+obj[i]["details"]["name"]+'</div><img class="card-img-bottom" src="'+obj[i]["img"][1]+"0."+obj[i]["img"][2]+'" alt="'+obj[i]["details"]["name"]+'"><div class="card-body"><h5 class="card-title">'+obj[i]["details"]["fname"]+'</h5><p class="card-text">'+opis+'</p><a href="#" class="btn btn-primary">Подробниее</a></div></div></div>');
-
-
-}	
-
 
 });
