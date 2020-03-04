@@ -1,7 +1,6 @@
 //console.log(jsonCarData);
 
-console.log(1);
-const DEBUGNOSCRIPT = 0;
+const DEBUGNOSCRIPT = 1;
 $(".nav-link").on('click', function(event){$("#navbarNav").collapse("hide");});
 document.addEventListener('DOMContentLoaded', function(){
 //carsalbum
@@ -25,7 +24,7 @@ $.each(cword, function( key, value ) {
 }
 
 if (!DEBUGNOSCRIPT){
-jQuery.get("https://shareimg.gq/api/rw", function(data, status){
+jQuery.get("https://shareimg.gq/api/rw", function(data){
      var d=JSON.parse(data);
      for (var i=0; i<d.length;i++){
      if (i==0){
