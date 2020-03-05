@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Marck+Script|Lobster|Trade+Winds&display=swap');
 
 @font-face {
     font-family: "Font Awesome 5 Brands";
@@ -11,6 +11,12 @@
 
 .fab {
     font-family: "Font Awesome 5 Brands"
+}
+.homeIMG span {
+	font-family: "Marck Script";
+}
+* {
+	font-family: "Open Sans";
 }
 
 .COMa:link,
