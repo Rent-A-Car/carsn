@@ -1,6 +1,6 @@
 //console.log(jsonCarData);
 //pre load document
-const REVIEW = 0;
+const REVIEW = 1;
 $(".nav-link").on('click', function(event){$("#navbarNav").collapse("hide");});
 
 //on document load
@@ -24,13 +24,14 @@ CONTAINER.append('<div id="ClCa-'+i.toString()+'" class="col-md-4"><div class="c
 }
 
 //lazy
+setTimeout(function(){
 $(".homeIMG").addClass("lazy-off");
 $( ".lazyimg" ).each(function() {
   $(this).attr("src",$(this).attr("lazysrc"));
   $(this).removeClass("lazyimg");
 });
 
-
+},0);
 
 
 
