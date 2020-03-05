@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Marck+Script|Lobster|Trade+Winds&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 @font-face {
     font-family: "Font Awesome 5 Brands";
@@ -140,3 +142,5 @@ div[id^="ClCa"] .card-header {
         font-size: 1.1781em;
     }
 }
+
+
