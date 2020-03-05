@@ -23,6 +23,16 @@ $.each(cword, function( key, value ) {
 
 }
 
+//lazy
+$(".homeIMG").addClass("lazy-off");
+
+
+
+
+
+
+
+//reviews
 if (!DEBUGNOSCRIPT){
 jQuery.get("https://shareimg.gq/api/rw", function(data){
      var d=JSON.parse(data);
@@ -60,5 +70,6 @@ jQuery.get("https://shareimg.gq/api/rw", function(data){
      $("#COM").addClass("bg-secondary");
 }
   
+
 
 });
