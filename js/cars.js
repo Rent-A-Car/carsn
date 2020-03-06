@@ -46,7 +46,10 @@ imgindk=imgindk+'<li data-target="#cC" data-slide-to="'+ii.toString()+'"></li>';
 imgsrc=imgsrc+'<div class="carousel-item"><img src="'+obj[i]["img"][1]+ii.toString()+"."+obj[i]["img"][2]+'" class="d-block w-100" alt="'+obj[i]["details"]["name"]+'"></div>';
 }
 }
-console.log(ii);
+for(var iii=0;iii<(obj[i]["details"].length-3);iii++){
+console.log(iii);
+}
+
 var myWindow = window.open("",i.toString()+"-"+obj[i], "");
 myWindow.document.write(`
 <!doctype html>
@@ -122,9 +125,16 @@ myWindow.document.write(`
             </div>
             
             </div>
-            <div class="col-md-8 bg-primary" >
-            
-            </div>
+        <div class="col-md-8 mt-4 mt-md-0" >
+            <table class="table table-bordered table-secondary" >
+ 
+            <tr>
+            <th>📞Bluetooth</th>
+            <td>☑️</td>
+            </tr>
+ 
+            </table>
+        </div>
         
         
         </div>
