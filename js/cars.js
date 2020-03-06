@@ -75,7 +75,7 @@ myWindow.document.write(`
     <link rel="stylesheet" href="css/carsP.css?vbnnvcgnlj">
 </head>
 
-<body id="home" >
+<body id="home" style="background-color:#e9ecef;">
 
     <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
         <h1 class=" navbar-brand">Аренда авто Черногория</h1>
@@ -108,7 +108,7 @@ myWindow.document.write(`
 
 
 
-<div class="container-fluid jumbotron bg-white" >
+<div class="container-fluid jumbotron" >
   
         <div class="row">
         
