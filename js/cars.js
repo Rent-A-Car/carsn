@@ -46,9 +46,16 @@ imgindk=imgindk+'<li data-target="#cC" data-slide-to="'+ii.toString()+'"></li>';
 imgsrc=imgsrc+'<div class="carousel-item"><img src="'+obj[i]["img"][1]+ii.toString()+"."+obj[i]["img"][2]+'" class="d-block w-100" alt="'+obj[i]["details"]["name"]+'"></div>';
 }
 }
-for(var iii=0;iii<(obj[i]["details"].length-3);iii++){
-console.log(iii);
-}
+var table="";
+y = 0;
+for (var k in obj[i].details)
+{
+  if (y > 3)
+  {
+  table=table+"<tr><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
+  };
+  y = y+ 1
+};
 
 var myWindow = window.open("",i.toString()+"-"+obj[i], "");
 myWindow.document.write(`
@@ -128,10 +135,7 @@ myWindow.document.write(`
         <div class="col-md-8 mt-4 mt-md-0" >
             <table class="table table-bordered table-secondary" >
  
-            <tr>
-            <th>📞Bluetooth</th>
-            <td>☑️</td>
-            </tr>
+            `+table+`
  
             </table>
         </div>
