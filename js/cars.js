@@ -72,7 +72,7 @@ myWindow.document.write(`
     <!--    CSS      -->
 
     <link rel="stylesheet" href="css/all.css?vbnvcgnlj">
-    <link rel="stylesheet" href="css/carsP.css?vbnnvcgnlj">
+    <!-- <link rel="stylesheet" href="css/carsP.css?vbnnvcgnlj"> -->
 </head>
 
 <body id="home" style="background-color:#e9ecef;">
@@ -149,7 +149,7 @@ myWindow.document.write(`
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script src="js/all.js?hdbhdb"></script>
-        <script src="js/carsP.js?hdbhdb"></script>
+        <!-- <script src="js/carsP.js?hdbhdb"></script> -->
 
 </body>
 
