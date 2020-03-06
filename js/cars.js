@@ -50,7 +50,7 @@ var table="";
 y = 0;
 for (var k in obj[i].details)
 {
-  if (y > 3)
+  if (y > 2)
   {
   table=table+"<tr><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
   };
