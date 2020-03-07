@@ -57,7 +57,7 @@ for (var k in obj[i].details)
   y = y+ 1
 };
 
-var myWindow = window.open("","_self","");//i.toString()+"-"+obj[i], "");
+var myWindow = window.open("","_blank","");//i.toString()+"-"+obj[i], "");
 myWindow.document.write(`
 <!doctype html>
 <html>
