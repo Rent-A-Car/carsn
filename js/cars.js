@@ -142,6 +142,15 @@ myWindow.document.write(`
         
         
         </div>
+        <div class="row" >
+            <div class="col-12 d-flex justify-content-end" >
+                <button class="btn btn-primary btn-lg">Заказать</button>
+            </div>
+        </div>
+        
+        
+        
+        
 </div>
         
 
