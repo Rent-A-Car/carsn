@@ -184,16 +184,16 @@ myWindow.document.write(`
         </div>
         <div class="modal-body d-flex justify-content-center">
         <div class="social instagram">
-        <a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.instagram.com/montenegro_arenda/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
         </div>
         <div class="social facebook">
-        <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+        <a href="https://www.facebook.com/montenegroarenda/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
         </div>
         <div class="social whatsapp">
-        <a href="#" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+        <a href="https://wa.me/38268555972" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
         </div>
         <div class="social viber">
-        <a href="#" target="_blank"><i class="fab fa-viber fa-2x"></i></a>    
+        <a href="viber://chat?number=38268555972" target="_blank"><i class="fab fa-viber fa-2x"></i></a>    
         </div>
         </div>
         
