@@ -68,7 +68,7 @@ myWindow.document.write(`
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Аренда автомобилей (`+obj[i]["details"]["name"]+` №`+(i+1).toString()+`)</title>
+    <title>Аренда автомобилей (`+obj[i]["details"]["name"]+`)</title>
     <!--    CSS      -->
 
     <link rel="stylesheet" href="css/all.css?vbnvcgnlj">
