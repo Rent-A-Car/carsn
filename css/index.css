@@ -1,0 +1,20 @@
+.carousel-txt {
+position:absolute;
+top: 45%;
+transform: translateY(-45%);
+left: 0;
+right: 0;
+margin: 0 auto;
+color:white;
+text-shadow:1px 1px 10px #000;
+}
+.carousel-item {
+
+height:20rem;
+
+}
+
+.carousel-item img {
+height:100%;
+
+}

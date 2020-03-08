@@ -16,7 +16,7 @@ jQuery.get("https://shareimg.gq/api/rw", function(data) {
             $("#COM").html("");
         }
         if (i > 1) {
-            $("#COM").append('<div class="fb-post rounded mt-3 mt-md-0  mb-3" data-href="https://www.facebook.com' + d[i] + '"  data-show-text="false"></div>');
+            $("#COM").append('<div class="fb-post rounded mt-3 mt-md-0  mb-3" data-href="' + d[i] + '"  data-show-text="false"></div>');
         }
 
     }
@@ -28,5 +28,7 @@ jQuery.get("https://shareimg.gq/api/rw", function(data) {
     });
 
     console.log($(".fb_iframe_widget").classList);
-
+    
 });
+
+
