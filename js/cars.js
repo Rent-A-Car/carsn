@@ -5,7 +5,11 @@ if(window.location.hash.substring(0,5) == "car-"){
 var hash = window.location.hash.substring(5);
 carInfo(hash);
 
-}}
+}else{
+window.location.hash = "";
+}
+
+}
 
     var obj = JSON.parse(jsonCarData);
     var b = obj.length;
