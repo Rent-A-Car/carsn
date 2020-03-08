@@ -3,4 +3,6 @@
 div[id^="ClCa"] .card-header {
     font-family: 'Trade Winds', cursive;
     font-size: 1.3em;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
 }

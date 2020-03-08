@@ -18,13 +18,13 @@ body {
 }
 
 
-.homeIMG {
+/*.homeIMG {
     width: 100%;
     min-height: 18em;
     background-size: cover;
     background-position: center center;
     background-image: url("https://rent-a-car.github.io/carsn/img/bg.jpg");
-}
+}*/
 
 .fab {
     -moz-osx-font-smoothing: grayscale;
@@ -39,21 +39,7 @@ body {
 .fa-viber:before {
     content: "\f409"
 }
-.border-radius-5{
-border-radius:5;
-}
-.border-radius-10{
-border-radius:10;
-}
-.border-radius-15{
-border-radius:15;
-}
-.border-radius-25{
-border-radius:25;
-}
-.border-radius-50{
-border-radius:50;
-}
-.border-radius-75{
-border-radius:75;
+
+.border-r-15{
+border-radius:15px;
 }
