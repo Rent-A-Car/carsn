@@ -43,3 +43,7 @@ body {
 .border-r-15{
 border-radius:15px;
 }
+
+.sticky-top{
+position: -webkit-sticky;
+}

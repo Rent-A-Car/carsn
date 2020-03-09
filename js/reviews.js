@@ -1,3 +1,6 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+
 jQuery.get("https://shareimg.gq/api/rw", function(data) {
     var d = JSON.parse(data);
     for (var i = 0; i < d.length; i++) {
@@ -17,6 +20,7 @@ jQuery.get("https://shareimg.gq/api/rw", function(data) {
         }
         if (i > 1) {
             $("#COM").append('<div class="fb-post rounded mt-3 mt-md-0  mb-3" data-href="' + d[i] + '"  data-show-text="false"></div>');
+            //console.log(d[i]);
         }
 
     }
@@ -30,5 +34,10 @@ jQuery.get("https://shareimg.gq/api/rw", function(data) {
     console.log($(".fb_iframe_widget").classList);
     
 });
+
+
+
+});
+
 
 
