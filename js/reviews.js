@@ -36,8 +36,6 @@ jQuery.get("https://shareimg.gq/api/rw", function(data) {
 });
 
 
-
 });
-
 
 
