@@ -87,9 +87,33 @@
 <!--        <script src="js/data.js?hfkiz64jk"></script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <div class="bg-warning" id="fb-root"></div>
+        <script src="https://connect.facebook.net/en_US/sdk.js"></script>
         <script src="js/all.js?hdbhdb"></script>
-        <script src="js/index.js?hdbhdb"></script>
-
+        <script src="js/index.js?hdbhdb"></script></script>
+        <script type="text/javascript">
+        FB.init(
+        {
+        appId  : '674037580005768',
+        version: 'v6.0',
+        status : true, 
+        cookie : true, 
+        xfbml  : true  
+        });
+        
+        
+FB.login(function(response) {
+    if (response.authResponse) {
+     console.log('Welcome!  Fetching your information.... ');
+     FB.api('/me', function(response) {
+       console.log('Good to see you, ' + response.name + '.');
+     });
+    } else {
+     console.log('User cancelled login or did not fully authorize.');
+    }
+});
+        
+        
         </script>
 </body>
 
