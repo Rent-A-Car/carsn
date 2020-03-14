@@ -63,7 +63,12 @@ for (var k in obj[i].details)
 {
   if (y > 2)
   {
+  if(y<7){
   table=table+"<tr><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
+  }else{
+    table=table+"<tr class='d-none coll'><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
+  }
+  
   };
   y = y+ 1
 };
@@ -165,6 +170,9 @@ myWindow.document.write(`
             `+table+`
  
             </table>
+            
+                        <a href="javascript:void(0);" class="btn btn-sm btn-secondary"  id="more" >ещё</a>
+            
         </div>
         
         
@@ -189,8 +197,10 @@ myWindow.document.write(`
     </button>
     </div>
     <div class="modal-body ">
+    
     <div class="text-center">ID вашего заказа <kbd>#<span id="ID">wait...</span></kbd></div>
     <hr>
+    
     <div class="d-flex justify-content-center" >
     <div class="social instagram">
     <a href="https://www.instagram.com/montenegro_arenda/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
@@ -206,10 +216,12 @@ myWindow.document.write(`
     </div>
     </div>
     </div>
+    <!-- пояснення
     <div class="modal-footer d-block p-0 m-0">
 <span><small>*ID действует в течение 5 часов</small></span>
 
     </div>
+    -->
     </div>
     </div>
     </div>

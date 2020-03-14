@@ -5,47 +5,43 @@ window.location.reload(false);
 
 
 
-var btn = $("#rs");
-
-
-btn.on("click",function(){
+$("#rs").on("click",function(){
 
 //$("#ID").html(genid());
 $('#contactDialog').modal('show');
-setTimeout(reserve,0);
+setTimeout(reserve,10);
 });
+
+$("#more").on("click",function(){
+
+if ($(".coll").hasClass("d-none")){
+$(".coll").removeClass("d-none");
+}else{
+$(".coll").addClass("d-none");
+}
+
+});
+
+
+
+
+
+
+
 
 
 function reserve(){
 var car = window.location.hash.substring(5);
-var headers = "";
 var adds="dhhd";
 var datet ="ttt";
 var datef="fff";
 
-
-$.ajax({
-    url : "https://httpbin.org/headers",
-    type : "GET",
-    async: false,
-    success : function(data,status) {
-headers=btoa(data.headers["Accept-Language"]);
-    },
-    error: function() {
-alert("Get headers error");
-    }
- });
- 
- 
- 
- 
- 
  
 var id = genid();
 
 
 $.ajax({
-    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+datef+"/"+datet+"/"+adds+"/"+headers,
+    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+datef+"/"+datet+"/"+adds,
     type : "GET",
     async: true,
     success : function(data,status) {
@@ -53,7 +49,7 @@ $.ajax({
     $("#ID").html(data);
     },
     error: function() {
-alert("Get id error");
+alert("Set id error");
     }
  });
  
@@ -62,7 +58,7 @@ alert("Get id error");
 }
 
 function genid(){
-var oldids = getid();
+var oldids = getids();
 while (1<2){
 var id=getRndInteger(10000,99999);
 if (oldids.includes(id.toString())){}else{
@@ -83,7 +79,7 @@ function getRndInteger(min, max) {
 
 
 
-function getid(){
+function getids(){
 var ddata;
 $.ajax({
     url : "https://gornostay25.pythonanywhere.com/api/getresrv",
@@ -99,7 +95,6 @@ alert("Get id error");
 return JSON.parse(ddata);
 
 }
-
 
 
 
