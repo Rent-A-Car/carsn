@@ -189,7 +189,7 @@ myWindow.document.write(`
     </button>
     </div>
     <div class="modal-body ">
-    <div class="text-center">ID вашего заказа <kbd>#<span id="ID">53773</span></kbd></div>
+    <div class="text-center">ID вашего заказа <kbd>#<span id="ID">wait...</span></kbd></div>
     <hr>
     <div class="d-flex justify-content-center" >
     <div class="social instagram">

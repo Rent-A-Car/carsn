@@ -9,12 +9,58 @@ var btn = $("#rs");
 
 
 btn.on("click",function(){
-$("#ID").html(genid());
-$('#contactDialog').modal('show');
 
+//$("#ID").html(genid());
+
+$('#contactDialog').modal('show');
+reserve();
 });
 
 
+function reserve(){
+var car = window.location.hash.substring(5);
+var headers = "";
+var adds="dhhd";
+var datet ="ttt";
+var datef="fff";
+
+
+$.ajax({
+    url : "https://httpbin.org/headers",
+    type : "GET",
+    async: false,
+    success : function(data,status) {
+headers=btoa(data.headers["Accept-Language"]);
+    },
+    error: function() {
+alert("Get headers error");
+    }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+var id = genid();
+
+
+$.ajax({
+    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+datef+"/"+datet+"/"+adds+"/"+headers,
+    type : "GET",
+    async: true,
+    success : function(data,status) {
+
+    $("#ID").html(data);
+    },
+    error: function() {
+alert("Get id error");
+    }
+ });
+ 
+
+
+}
 
 function genid(){
 var oldids = getid();
@@ -26,7 +72,7 @@ break;
 }
 }
 
-return id;
+return id.toString();
 }
 
 
@@ -41,7 +87,7 @@ function getRndInteger(min, max) {
 function getid(){
 var ddata;
 $.ajax({
-    url : "http://gornostay25.pythonanywhere.com/api/getresrv",
+    url : "https://gornostay25.pythonanywhere.com/api/getresrv",
     type : "GET",
     async: false,
     success : function(data,status) {
