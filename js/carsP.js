@@ -11,9 +11,8 @@ var btn = $("#rs");
 btn.on("click",function(){
 
 //$("#ID").html(genid());
-
 $('#contactDialog').modal('show');
-reserve();
+setTimeout(reserve,0);
 });
 
 
