@@ -32,8 +32,12 @@ $(".coll").addClass("d-none");
 
 function reserve(){
 var car = window.location.hash.substring(5);
-var adds="dhhd";
+var adds=[];
+$(".addl:checked").each(function(){
+adds.push($(this).attr("id"));
+});
 
+adds=btoa(JSON.stringify(adds));
  
 var id = genid();
 
