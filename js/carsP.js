@@ -1,7 +1,23 @@
-
+var isgoodID=0;
 window.onhashchange = function() {
 window.location.reload(false); 
 }
+
+$("#ID").on("click",function(){
+if (isgoodID == 1){
+
+
+var copyText = document.getElementById("IDt");
+$("#IDt").show();
+$("#IDt").val("(ID заказа #"+$("#ID").text()+") ");
+copyText.select();
+copyText.setSelectionRange(0, 99999);
+document.execCommand("copy");
+$("#IDt").hide();
+
+$('#ID').tooltip('toggle');
+}
+});
 
 
 
@@ -49,13 +65,14 @@ $.ajax({
     success : function(data,status) {
 
     $("#ID").html(data);
+    $("#IDt").html(data);
+    isgoodID = 1;
     },
     error: function() {
 alert("Set id error");
     }
  });
  
-
 
 }
 

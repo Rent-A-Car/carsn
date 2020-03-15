@@ -227,7 +227,8 @@ myWindow.document.write(`
                </button>
             </div>
             <div class="modal-body ">
-               <div class="text-center">ID вашего заказа <kbd>#<span id="ID">wait...</span></kbd></div>
+               <div class="text-center">ID вашего заказа <kbd>#<span id="ID" data-toggle="tooltip" title="Текст скопирован">wait...</span></kbd><input id="IDt" value="ok" style="display:none"></div>
+
                <hr>
                <div class="d-flex justify-content-center" >
                   <div class="social instagram">
@@ -244,20 +245,20 @@ myWindow.document.write(`
                   </div>
                </div>
             </div>
-            <!-- пояснення
-               <div class="modal-footer d-block p-0 m-0">
-               <span><small>*ID действует в течение 5 часов</small></span>
-               
-               </div>
-               -->
+<div class="modal-footer d-block p-0 m-0">
+<span><small>*Отошлите етот ID нам чтобы продолжить</small></span>
+
+</div>
          </div>
       </div>
    </div>
    
    <script src="js/data.js?hfkiz64jk"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
    <script src="js/all.js?hdbhdb"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
    <script src="js/carsP.js"></script>
    </body>
 </html>

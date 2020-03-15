@@ -7,3 +7,11 @@ div[id^="ClCa"] .card-header {
     border-top-left-radius:15px;
 }
 
+input {
+  border: none;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: none;
+  width: auto;
+}
