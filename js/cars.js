@@ -57,21 +57,35 @@ imgindk=imgindk+'<li data-target="#cC" data-slide-to="'+ii.toString()+'"></li>';
 imgsrc=imgsrc+'<div class="carousel-item"><img src="'+obj[i]["img"][1]+ii.toString()+"."+obj[i]["img"][2]+'" class="d-block w-100" alt="'+obj[i]["details"]["name"]+'"></div>';
 }
 }
-var table="";
+var tableD="";
 y = 0;
 for (var k in obj[i].details)
 {
   if (y > 2)
   {
   if(y<7){
-  table=table+"<tr><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
+  tableD=tableD+"<tr><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
   }else{
-    table=table+"<tr class='d-none coll'><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
+    tableD=tableD+"<tr class='d-none coll'><th>"+k+"</th><td>"+obj[i].details[k]+"</td></tr>";
   }
   
   };
   y = y+ 1
 };
+
+var tableA="";
+
+/*for(var x=0;x<obj[i]["additional"].length;x++){
+alert(1);
+}
+
+*/
+
+alert(Object.keys(obj[i]));
+
+
+
+
 
 var myWindow = window.open("","_self","");//i.toString()+"-"+obj[i], "");
 myWindow.document.write(`
@@ -155,7 +169,7 @@ myWindow.document.write(`
             </div>
             <div class="col-md-8 mt-4 mt-md-0" >
                <table class="table table-bordered" style="background-color:#e9ecef;">
-              `+table+`
+              `+tableD+`
             </table>
             <a href="javascript:void(0);" class="btn btn-sm btn-secondary"  id="more" >more</a>
          </div>
