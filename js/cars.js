@@ -79,7 +79,7 @@ for(var x=0;x<obj[i]["additional"].length;x++){
 
 var xx=obj[i]["additional"][x];
 
-tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input" id="'+xx.id+'"><label class="custom-control-label" for="'+xx.id+'">'+xx.name+'</label></div></label></th><td class="text-right">'+xx.price+'</td></tr>';
+tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input addl" id="'+xx.id+'"><label class="custom-control-label" for="'+xx.id+'">'+xx.name+'</label></div></label></th><td class="text-right">'+xx.price+'</td></tr>';
 
 }
 
