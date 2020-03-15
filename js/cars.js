@@ -73,15 +73,18 @@ for (var k in obj[i].details)
   y = y+ 1
 };
 
-var tableA="";
+var tableA='';
+if(obj[i]["additional"]){
+for(var x=0;x<obj[i]["additional"].length;x++){
 
-/*for(var x=0;x<obj[i]["additional"].length;x++){
-alert(1);
+var xx=obj[i]["additional"][x];
+
+tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input" id="'+xx.id+'"><label class="custom-control-label" for="'+xx.id+'">'+xx.name+'</label></div></label></th><td class="text-right">'+xx.price+'</td></tr>';
+
 }
 
-*/
+}
 
-alert(Object.keys(obj[i]));
 
 
 
@@ -155,7 +158,7 @@ myWindow.document.write(`
                   `+imgindk+`
                   </ol>
                   <div class="carousel-inner">
-                  `+imgsrc+`
+  `+imgsrc+`
                   </div>
                   <a class="carousel-control-prev" href="#cC" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -167,23 +170,51 @@ myWindow.document.write(`
                   </a>
                </div>
             </div>
+            
             <div class="col-md-8 mt-4 mt-md-0" >
-               <table class="table table-bordered" style="background-color:#e9ecef;">
-              `+tableD+`
+               <table class="table table-bordered m-0" style="background-color:#e9ecef;">
+               
+               `+tableD+`
+            
             </table>
+            
             <a href="javascript:void(0);" class="btn btn-sm btn-secondary"  id="more" >more</a>
+         
+         
+         
+         
+         <table class="mt-3 w-100 table ">
+         
+`+tableA+`         
+         
+         </table>
+         
+         
+         
+         
+         
+         
+         
          </div>
          
          
-      </div>
+     
+     
+     
+     </div>
       
-      <div class="row" >
+      
+      
+      
+      <div class="row mt-3" >
          <div class="col-12 d-flex justify-content-end" >
             <button id="rs" class="btn btn-primary btn-lg" >Заказать</button>
          </div>
       </div>
       
-      </div>
+      
+      
+      </div> <!-- main container -->
       
    
    <div class="modal fade" id="contactDialog" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="contactDialogTitle" aria-hidden="true">
@@ -222,6 +253,7 @@ myWindow.document.write(`
          </div>
       </div>
    </div>
+   
    <script src="js/data.js?hfkiz64jk"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

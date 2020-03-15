@@ -33,15 +33,13 @@ $(".coll").addClass("d-none");
 function reserve(){
 var car = window.location.hash.substring(5);
 var adds="dhhd";
-var datet ="ttt";
-var datef="fff";
 
  
 var id = genid();
 
 
 $.ajax({
-    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+datef+"/"+datet+"/"+adds,
+    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+adds,
     type : "GET",
     async: true,
     success : function(data,status) {
