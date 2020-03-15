@@ -178,7 +178,7 @@ myWindow.document.write(`
             
             </table>
             
-            <a href="javascript:void(0);" class="btn btn-sm btn-secondary"  id="more" >more</a>
+            <a href="javascript:void(0);" class="btn btn-sm btn-secondary mt-1"  id="more" >ещё</a>
          
          
          
