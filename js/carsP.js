@@ -54,12 +54,14 @@ adds.push($(this).attr("id"));
 });
 
 adds=btoa(JSON.stringify(adds));
- 
+var userLang = navigator.language || navigator.userLanguage; 
+userLang=btoa(userLang);
+
 var id = genid();
 
 
 $.ajax({
-    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+adds,
+    url : "https://gornostay25.pythonanywhere.com/api/setresrv/"+id+"/"+car+"/"+adds+"/"+userLang,
     type : "GET",
     async: true,
     success : function(data,status) {
@@ -114,6 +116,5 @@ alert("Get id error");
 return JSON.parse(ddata);
 
 }
-
 
 
