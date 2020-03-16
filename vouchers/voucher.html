@@ -45,7 +45,7 @@
       </div>
       <div class="cont-1__box">
         <div class="cont-3">
-          <h5 class="cont-3__title" id="sityF" >Город</h5>
+          <strong><h5 class="cont-3__title" id="sityF" >Город</h5></strong>
           <h5 class="cont-3__subtitle" id="placeF" >Аэропорт</h5>
         </div>
 
@@ -66,7 +66,7 @@
       </div>
       <div class="cont-1__box">
         <div class="cont-3">
-          <h5 class="cont-3__title" id="sityT">Город</h5>
+          <strong><h5 class="cont-3__title" id="sityT">Город</h5></strong>
           <h5 class="cont-3__subtitle" id="placeT" >Аэропорт</h5>
         </div>
 
@@ -125,12 +125,12 @@
 <tbody id="clientTable" >
 <tr>
 <th>Имя</th>
-<td class="text-right" >Иван Тестовый</td>
+<td class="text-right" >Тестовый</td>
 </tr>
 
 <tr>
 <th>Facebook</th>
-<td class="text-right" >Ivan Test</td>
+<td class="text-right" >Test</td>
 </tr>
 
 <tr>
@@ -143,13 +143,25 @@
 
 
 
+<!-- Контакты -->
+<div class="w-100 mt-5 pt-5" >
+<h1 class="h1" >Контакты:</h1>
+<ul>
+<li class="h4" >+38268555972 (WhatsApp/Viber)</li>
+<li class="h4" >montenegroarenda (Facebook)</li>
+</ul>
+<br>
+<hr>
 
 
+</div>
 
 
 
 
 </div>
+
+
 <div class="col-6" >
 
 <table class="table w-100 lft" >
@@ -169,17 +181,16 @@
 
 <tr >
 <td style="border-top: 2px solid black;" >Всего</td>
-<th class="text-right" style="border-top: 2px solid black;">191</th>
+<th class="text-right" style="border-top: 2px solid black;" id="all" >191</th>
 </tr>
 
 <tr>
 <td>Залог</td>
-<th class="text-right">100</th>
+<th class="text-right" id="prepay" >100</th>
 </tr>
 </div>
 </tbody>
 </table>
-
 
 
 
@@ -195,7 +206,9 @@ html{
 width:210mm;
 height:297mm;
 }
-
+ul{
+list-style-type: none;
+}
 .lft thead th {
 border:0;
 border-bottom: 4px solid black;
@@ -279,10 +292,12 @@ border-bottom: 4px solid black;
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-var data=JSON.parse(`
-{"id":"00000","sityF":"Tivat","sityT":"Tivat","timeF":"","timeT":"","placeF":"Аэропорт","placeT":"Аэропорт","dateF":"","dateT":"","auto":{"Модель":"Mercedes B200"},"client":{"Имя":"Иван","Телефон":"+7"},"price":{"additionals":{"Аренда авто (7дн.)":"175€"}}}
-`);
+$( document ).ready(function() {
 
+var data=JSON.parse(`
+{"id":"00001","sityF":"Tivat","sityT":"Budva","timeF":"11:35","timeT":"","placeF":"Аэропорт","placeT":"","dateF":"09.06.2020","dateT":"15.06.2020","auto":{"МОДЕЛЬ":"Mercedes B200 2.0cdi","ГОД":"2009","КПП":"автомат","ТОПЛИВО":"дизель"},"client":{"Имя":"Иван Караяни","Дата рождения":"01.10.1987","Авиарейс":"DP829"},"price":{"additionals":{"Аренда авто (7дн.)":"150€","Зелёная карта":"0€","Перегон с Будвы":"25€"},"all":"175€","prepay":"100€"}}
+`);
+document.title="Ваучер-"+data.id;
 $("#IDbr").text("#"+data.id);
 $("#dateF").text(data.dateF);
 $("#dateT").text(data.dateT);
@@ -292,6 +307,9 @@ $("#sityT").text(data.sityT);
 $("#sityF").text(data.sityF);
 $("#placeT").text(data.placeT);
 $("#placeF").text(data.placeF);
+$("#all").text(data.price.all);
+$("#prepay").text(data.price.prepay);
+
 
 var auto="";
 for (var k in data.auto){
@@ -314,7 +332,7 @@ additionals = additionals+'<tr><td>'+k+'</td><th class="text-right" >'+data.pric
 $("#additional").prepend(additionals);
 
 
-
+});
 
 
 </script>
