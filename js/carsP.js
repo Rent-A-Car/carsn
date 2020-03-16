@@ -15,7 +15,7 @@ copyText.setSelectionRange(0, 99999);
 document.execCommand("copy");
 $("#IDt").hide();
 
-$('#ID').tooltip('toggle');
+$('#ID').tooltip('show');
 }
 });
 

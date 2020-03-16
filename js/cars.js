@@ -227,7 +227,7 @@ myWindow.document.write(`
                </button>
             </div>
             <div class="modal-body ">
-               <div class="text-center">ID вашего заказа <kbd>#<span id="ID" data-toggle="tooltip" title="Текст скопирован">wait...</span></kbd><input id="IDt" value="ok" style="display:none"></div>
+               <div class="text-center">ID вашего заказа <kbd>#<span id="ID"  data-title="Текст скопирован">wait...</span></kbd><input id="IDt" value="ok" style="display:none"></div>
 
                <hr>
                <div class="d-flex justify-content-center" >
