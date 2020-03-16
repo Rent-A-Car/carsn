@@ -6,3 +6,6 @@ Disallow: /fonts/
 Disallow: /img/
 Disallow: /js/
 Disallow: /css/
+Disallow: /startserv.sh
+Disallow: /undefined.undefined
+Disallow: /vouchers/
