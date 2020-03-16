@@ -169,12 +169,12 @@
 
 <tr >
 <td style="border-top: 2px solid black;" >Всего</td>
-<th class="text-right" style="border-top: 2px solid black;" id="all" >191</th>
+<th class="text-right" style="border-top: 2px solid black;">191</th>
 </tr>
 
 <tr>
 <td>Залог</td>
-<th class="text-right" id="prepay" >100</th>
+<th class="text-right">100</th>
 </tr>
 </div>
 </tbody>
@@ -280,7 +280,7 @@ border-bottom: 4px solid black;
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 var data=JSON.parse(`
-{"id":"00001","sityF":"Tivat","sityT":"Budva","timeF":"11:35","timeT":"","placeF":"Аэропорт","placeT":"","dateF":"09.06.2020","dateT":"15.06.2020","auto":{"МОДЕЛЬ":"Mercedes B200 2.0cdi","ГОД":"2009","КПП":"автомат","ТОПЛИВО":"дизель"},"client":{"Имя":"Иван Караяни","Дата рождения":"01.10.1987"},"price":{"additionals":{"Аренда авто (7дн.)":"150€","Зелёная карта":"0€","Перегон с Будвы":"25€"},"all":"175€","prepay":"100€"}}
+{"id":"00000","sityF":"Tivat","sityT":"Tivat","timeF":"","timeT":"","placeF":"Аэропорт","placeT":"Аэропорт","dateF":"","dateT":"","auto":{"Модель":"Mercedes B200"},"client":{"Имя":"Иван","Телефон":"+7"},"price":{"additionals":{"Аренда авто (7дн.)":"175€"}}}
 `);
 
 $("#IDbr").text("#"+data.id);
@@ -292,9 +292,6 @@ $("#sityT").text(data.sityT);
 $("#sityF").text(data.sityF);
 $("#placeT").text(data.placeT);
 $("#placeF").text(data.placeF);
-$("#all").text(data.price.all);
-$("#prepay").text(data.price.prepay);
-
 
 var auto="";
 for (var k in data.auto){
