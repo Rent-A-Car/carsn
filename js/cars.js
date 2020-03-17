@@ -95,6 +95,7 @@ myWindow.document.write(`
    <head>
       <!-- Required meta tags -->
       <meta charset="utf-8">
+      <meta id="mcid" carid="`+i.toString()+`">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Аренда автомобилей (`+obj[i]["details"]["name"]+`)</title>
       <!--    CSS      -->

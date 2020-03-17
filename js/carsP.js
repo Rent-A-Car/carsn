@@ -50,7 +50,7 @@ $(".coll").addClass("d-none");
 
 
 function reserve(){
-var car = window.location.hash.substring(5);
+var car = $("#mcid").attr("carid");
 var adds=[];
 $(".addl:checked").each(function(){
 adds.push($(this).attr("id"));
