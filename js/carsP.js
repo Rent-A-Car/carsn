@@ -1,8 +1,10 @@
 var isgoodID=0;
+
 /*
 window.onhashchange = function() {
 window.location.reload(false);
 }
+
 */
 $("#ID").on("click",function(){
 if (isgoodID == 1){
