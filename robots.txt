@@ -6,3 +6,4 @@ Disallow: /startserv.sh
 Disallow: /undefined.undefined
 Disallow: /vouchers/
 Sitemap: /sitemap.xml
+Disallow: /ab.html
