@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     //carsalbum
 if(window.location.hash){
-if(window.location.hash.substring(0,5) == "car-"){
+if(window.location.hash.substring(0,5) == "#car-"){
+
 var hash = window.location.hash.substring(5);
 carInfo(hash);
 
