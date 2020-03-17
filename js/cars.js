@@ -93,6 +93,14 @@ myWindow.document.write(`
 <!doctype html>
 <html>
    <head>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160826750-1"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   
+   gtag('config', 'UA-160826750-1');
+   </script>
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta id="mcid" carid="`+i.toString()+`">
@@ -260,16 +268,7 @@ myWindow.document.write(`
    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
    <script src="js/carsP.js"></script>
    
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160826750-1"></script>
-   <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-   
-   gtag('config', 'UA-160826750-1');
-   </script>
-   
+
    
    
    
