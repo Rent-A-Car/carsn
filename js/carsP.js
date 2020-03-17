@@ -1,8 +1,9 @@
 var isgoodID=0;
+/*
 window.onhashchange = function() {
 window.location.reload(false);
 }
-
+*/
 $("#ID").on("click",function(){
 if (isgoodID == 1){
 
@@ -116,4 +117,3 @@ alert("Get id error");
 return JSON.parse(ddata);
 
 }
-
