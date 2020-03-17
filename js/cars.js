@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     //carsalbum
+   /*
 if(window.location.hash){
 if(window.location.hash.substring(0,5) == "#car-"){
 
@@ -11,7 +12,7 @@ window.location.hash = "";
 }
 
 }
-
+*/
     var obj = JSON.parse(jsonCarData);
     var b = obj.length;
 

@@ -1,5 +1,4 @@
 var isgoodID=0;
-
 window.onhashchange = function() {
 window.location.reload(false);
 }
