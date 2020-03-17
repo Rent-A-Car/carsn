@@ -88,7 +88,7 @@ tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-c
 
 
 
-var myWindow = window.open("","_blank","");//i.toString()+"-"+obj[i], "");
+var myWindow = window.open("",i.toString()+"-"+obj[i], "");
 myWindow.document.write(`
 <!doctype html>
 <html>
