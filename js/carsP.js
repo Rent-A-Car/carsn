@@ -1,6 +1,6 @@
 var isgoodID=0;
 
-ga('send', 'pageview', "/car/"+($("#mcid").attr("carid")).toString());
+
 
 
 /*
