@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://arendacg.ml/</loc>
+    <lastmod>2020-03-18</lastmod>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://arendacg.ml/img/slider1.jpg</image:loc>
+      <image:title>slider1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://arendacg.ml/img/slider0.jpg</image:loc>
+      <image:title>slider0</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://arendacg.ml/img/slider2.jpg</image:loc>
+      <image:title>slider2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://arendacg.ml/contacts.html</loc>
+    <lastmod>2020-03-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arendacg.ml/cars.html</loc>
+    <lastmod>2020-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://arendacg.ml/index.html</loc>
+    <lastmod>2020-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://arendacg.ml/img/slider1.jpg</image:loc>
+      <image:title>slider1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://arendacg.ml/img/slider0.jpg</image:loc>
+      <image:title>slider0</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://arendacg.ml/img/slider2.jpg</image:loc>
+      <image:title>slider2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://arendacg.ml/reviews.html</loc>
+    <lastmod>2020-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
+<!--<guid value="e3f82af5-ca09-424d-b2ab-d8debf82c4d2" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
