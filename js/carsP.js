@@ -29,7 +29,7 @@ $("#rs").on("click",function(){
 //$("#ID").html(genid());
 $('#contactDialog').modal('show');
 setTimeout(reserve,10);
-ga("send","event","button","click");
+ga("send","event","r","c");
 });
 
 $("#more").on("click",function(){
