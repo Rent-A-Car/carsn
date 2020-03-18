@@ -77,7 +77,10 @@ $.ajax({
     isgoodID = 1;
 gtag('event', 'click', {
   'event_category': 'reserve',
-  'event_label': 'car-'+car+"/id-"+data
+  'event_label': 'car-'+car+"/id-"+data,
+  'event_callback': function(){
+  console.log("sended");
+  }
 });
     },
     error: function() {
