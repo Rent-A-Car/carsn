@@ -1,5 +1,8 @@
 var isgoodID=0;
 
+ga('send', 'pageview', "/car/"+($("#mcid").attr("carid")).toString());
+
+
 /*
 window.onhashchange = function() {
 window.location.reload(false);
@@ -29,7 +32,6 @@ $("#rs").on("click",function(){
 //$("#ID").html(genid());
 $('#contactDialog').modal('show');
 setTimeout(reserve,10);
-ga("send","event","r","c");
 });
 
 $("#more").on("click",function(){
@@ -73,6 +75,10 @@ $.ajax({
     $("#ID").html(data);
     $("#IDt").html(data);
     isgoodID = 1;
+gtag('event', 'click', {
+  'event_category': 'reserve',
+  'event_label': 'car-'+car
+});
     },
     error: function() {
 alert("Set id error");

@@ -99,7 +99,11 @@ myWindow.document.write(`
    function gtag(){dataLayer.push(arguments);}
    gtag('js', new Date());
    
-   gtag('config', 'UA-160826750-1');
+
+   gtag('config', 'UA-160826750-1', {
+   'page_title' : 'car `+i.toString()+`',
+   'page_path': '/car/`+i.toString()+`'
+   });
    </script>
       <!-- Required meta tags -->
       <meta charset="utf-8">
