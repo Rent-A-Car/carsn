@@ -1,7 +1,9 @@
 var isgoodID=0;
 
-
-
+ym(61124773, 'extLink', 'https://arendacg.ml/cars.html/car-'+$("#mcid").attr("carid"));
+ym(61124773, 'hit', '#car', {
+    title: 'Машина '+$("#mcid").attr("carid")
+});
 
 /*
 window.onhashchange = function() {
@@ -75,13 +77,7 @@ $.ajax({
     $("#ID").html(data);
     $("#IDt").html(data);
     isgoodID = 1;
-gtag('event', 'click', {
-  'event_category': 'reserve',
-  'event_label': 'car-'+car+"/id-"+data,
-  'event_callback': function(){
-  console.log("sended");
-  }
-});
+    ym(61124773,'reachGoal','resrv');
     },
     error: function() {
 alert("Set id error");
