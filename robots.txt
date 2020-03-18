@@ -1,9 +1,11 @@
 User-agent: *
+Allow: /
+Allow: /sitemap.htm
+Sitemap: https://arendacg.ml/sitemap.xml
 Disallow: /data.json
 Disallow: /CNAME
 Disallow: /git.sh
 Disallow: /startserv.sh
 Disallow: /undefined.undefined
 Disallow: /vouchers/
-Sitemap: https://arendacg.ml/sitemap.xml
 Disallow: /ab.html
