@@ -37,16 +37,13 @@ setTimeout(reserve,10);
 
 //more
 
-$("#more").on("click",function(){
-
+function opmore(){
 if ($(".coll").hasClass("d-none")){
 $(".coll").removeClass("d-none");
 }else{
 $(".coll").addClass("d-none");
 }
-
-});
-
+}
 
 
 

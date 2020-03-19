@@ -191,7 +191,7 @@ myWindow.document.write(`
             
             </table>
             
-            <a href="javascript:void(0);" class="btn btn-sm btn-secondary mt-1"  id="more" >ещё</a>
+            <a href="javascript:opmore();" class="btn btn-sm btn-secondary mt-1"  id="more" >ещё</a>
          
          
          
