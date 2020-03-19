@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://arendacg.ml/index-sitemap.xml
+Sitemap: https://arendacg.ml/sitemap.xml
 Disallow: /data.json
 Disallow: /CNAME
 Disallow: /git.sh
