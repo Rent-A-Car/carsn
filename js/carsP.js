@@ -35,6 +35,8 @@ $('#contactDialog').modal('show');
 setTimeout(reserve,10);
 });
 
+//more
+
 $("#more").on("click",function(){
 
 if ($(".coll").hasClass("d-none")){
