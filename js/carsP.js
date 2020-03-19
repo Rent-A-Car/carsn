@@ -77,8 +77,8 @@ $.ajax({
     $("#IDt").html(data);
     isgoodID = 1;
 
-    gtag('event', 'click', {
-    'event_category': 'reserve',
+    gtag('event', 'reserve', {
+    'event_category': 'CAR',
     'event_label': 'car-'+car+"/id-"+data,
     'event_callback': function(){
     console.log("sended");
