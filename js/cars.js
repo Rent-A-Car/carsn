@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var cword = {
         "n": "<br>"
     }
-    for (var i = 0; i < b; i++) {
+    for (var i = 1; i < b; i++) {
         var opis = obj[i]["details"]["text"];
 
         $.each(cword, function(key, value) {
@@ -30,6 +30,5 @@ setTimeout(function() {
 
 
 });
-
 
 

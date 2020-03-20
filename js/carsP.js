@@ -170,24 +170,26 @@ for (var k in obj[i].details)
 };
 
 var tableA='';
-if(obj[i]["additional"]){
 for(var x=0;x<obj[i]["additional"].length;x++){
 
-var xx=obj[i]["additional"][x];
+var prop = obj[i]["additional"][x];
+var id = obj[i]["additional"][x][0];
 
-tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input addl" id="'+xx.id+'"><label class="custom-control-label" for="'+xx.id+'">'+xx.name+'</label></div></label></th><td class="text-right">'+xx.price+'</td></tr>';
+var xx=obj[0][id];
 
+if (obj[i]["additional"][x][1]) {
+tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input addl" id="'+id+'"><label class="custom-control-label" for="'+id+'">'+xx.name+'</label></div></label></th><td class="text-right">'+obj[i]["additional"][x][1]+'</td></tr>';
+}else{
+tableA=tableA+'<tr><th class="col-10"><label class="w-100" ><div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input addl" id="'+id+'"><label class="custom-control-label" for="'+id+'">'+xx.name+'</label></div></label></th><td class="text-right">'+xx.price+'</td></tr>';
 }
 
 }
 
 
-
-
-
-
+/*
 var myWindow = window.open("","_self", "");
-myWindow.document.write(`
+myWindow.*/
+document.write(`
 <!doctype html>
 <html>
    <head>
