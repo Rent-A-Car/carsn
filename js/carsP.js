@@ -359,7 +359,7 @@ document.write(`
                </div>
             </div>
 <div class="modal-footer d-block p-0 m-0">
-<span><small>*Отошлите етот ID нам чтобы продолжить</small></span>
+<span><small>*Отошлите этот ID нам чтобы продолжить</small></span>
 
 </div>
          </div>
