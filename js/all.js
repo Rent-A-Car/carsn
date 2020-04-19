@@ -1,7 +1,7 @@
 //console.log(jsonCarData);
 //pre load document
 
-$(".nav-link").on('click', function(event) {
+$(".slka").on('click', function(event) {
     $("#navbarNav").collapse("hide");
 });
 
