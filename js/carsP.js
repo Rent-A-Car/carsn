@@ -38,8 +38,8 @@ $('#ID').tooltip('show');
 $("#rs").on("click",function(){
 
 //$("#ID").html(genid());
+reserve();
 $('#contactDialog').modal('show');
-setTimeout(reserve,10);
 });
 
 //more
@@ -59,7 +59,7 @@ $(".coll").addClass("d-none");
 
 
 
-function reserve(){
+async function reserve(){
 var car = $("#mcid").attr("carid");
 var adds=[];
 $(".addl:checked").each(function(){
