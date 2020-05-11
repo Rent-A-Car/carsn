@@ -8,5 +8,4 @@ Disallow: /startserv.sh
 Disallow: /undefined.undefined
 Disallow: /vouchers/
 Disallow: /ab.html
-Disallow: /ua/
 Disallow: /en/
