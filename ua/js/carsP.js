@@ -258,7 +258,7 @@ document.write(`
                   <a class="nav-link" href="contacts.html">Контакти</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="reviews.html">Вітгуки</a>
+                  <a class="nav-link" href="reviews.html">Відгуки</a>
                </li>
             </ul>
          </div>
@@ -359,7 +359,7 @@ document.write(`
                </div>
             </div>
 <div class="modal-footer d-block p-0 m-0">
-<span><small>*Надішліть цей ID нам щоб продовжити</small></span>
+<span><small>*Надішліть цей ID нам, щоб продовжити</small></span>
 
 </div>
          </div>
