@@ -18,7 +18,7 @@ if (isgoodID == 1){
 
 var copyText = document.getElementById("IDt");
 $("#IDt").show();
-$("#IDt").val("(ID заказу#"+$("#ID").text()+") ");
+$("#IDt").val("(Order ID #"+$("#ID").text()+") ");
 copyText.select();
 copyText.setSelectionRange(0, 99999);
 document.execCommand("copy");
@@ -206,7 +206,7 @@ document.write(`
       <meta charset="utf-8">
       <meta id="mcid" carid="`+i.toString()+`">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Оренда автомобілів (`+obj[i]["details"]["name"]+`)</title>
+      <title>Rent-A-Car (`+obj[i]["details"]["name"]+`)</title>
       <!--    CSS      -->
       <link rel="stylesheet" href="/css/all.css?vbnvcgnlj">
       <style>
@@ -232,17 +232,17 @@ document.write(`
    </head>
    <body id="home">
       <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
-         <h1 class=" navbar-brand">Оренда авто Чорногорія</h1>
+         <h1 class=" navbar-brand">Rent-A-Car Montenegro</h1>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
          <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Головна</a>
+                  <a class="nav-link" href="index.html">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link active" href="cars.html">Машини (`+obj[i]["details"]["name"]+`)</a>
+                  <a class="nav-link active" href="cars">Cars (`+obj[i]["details"]["name"]+`)</a>
                </li>
                <!--
                   <li class="nav-item" >
@@ -250,10 +250,10 @@ document.write(`
                   </li>
                   -->
                <li class="nav-item">
-                  <a class="nav-link" href="contacts.html">Контакти</a>
+                  <a class="nav-link" href="contacts">Contacts</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="reviews.html">Відгуки</a>
+                  <a class="nav-link" href="reviews">Reviesw</a>
                </li>
             </ul>
          </div>
@@ -270,11 +270,11 @@ document.write(`
                   </div>
                   <a class="carousel-control-prev" href="#cC" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Попереднє</span>
+                  <span class="sr-only">Previous</span>
                   </a>
                   <a class="carousel-control-next" href="#cC" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Наступне</span>
+                  <span class="sr-only">Next</span>
                   </a>
                </div>
             </div>
@@ -316,7 +316,7 @@ document.write(`
       
       <div class="row mt-3" >
          <div class="col-12 d-flex justify-content-end" >
-            <button id="rs" class="btn btn-primary btn-lg" >Замовити</button>
+            <button id="rs" class="btn btn-primary btn-lg" >To order</button>
          </div>
       </div>
       
