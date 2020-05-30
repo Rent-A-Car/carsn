@@ -253,7 +253,7 @@ document.write(`
                   <a class="nav-link" href="contacts">Contacts</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="reviews">Reviesw</a>
+                  <a class="nav-link" href="reviews">Reviews</a>
                </li>
             </ul>
          </div>
@@ -329,13 +329,13 @@ document.write(`
       <div class="modal-dialog modal-dialog-centered" role="document">
          <div class="modal-content">
             <div class="modal-header">
-               <h5 class="modal-title" id="contactDialogTitle">Зв\`яжіться з нами</h5>
+               <h5 class="modal-title" id="contactDialogTitle">Contact us</h5>
                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">&times;</span>
                </button>
             </div>
             <div class="modal-body ">
-               <div class="text-center">ID вашого заказу <kbd>#<span id="ID"  data-title="Текст скопійовано">wait...</span></kbd><input id="IDt" value="ok" style="display:none"></div>
+               <div class="text-center">Youre order ID <kbd>#<span id="ID"  data-title="The text has been copied">wait...</span></kbd><input id="IDt" value="ok" style="display:none"></div>
 
                <hr>
                <div class="d-flex justify-content-center" >
@@ -354,7 +354,7 @@ document.write(`
                </div>
             </div>
 <div class="modal-footer d-block p-0 m-0">
-<span><small>*Надішліть цей ID нам, щоб продовжити</small></span>
+<span><small>*Send this ID to us to continue</small></span>
 
 </div>
          </div>

@@ -18,7 +18,7 @@ if (isgoodID == 1){
 
 var copyText = document.getElementById("IDt");
 $("#IDt").show();
-$("#IDt").val("(ID заказу#"+$("#ID").text()+") ");
+$("#IDt").val("(ID заказу #"+$("#ID").text()+") ");
 copyText.select();
 copyText.setSelectionRange(0, 99999);
 document.execCommand("copy");
