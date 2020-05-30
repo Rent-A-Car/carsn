@@ -5,7 +5,6 @@ Disallow: /data.json
 Disallow: /CNAME
 Disallow: /git.sh
 Disallow: /startserv.sh
-Disallow: /undefined.undefined
 Disallow: /vouchers/
 Disallow: /ab.html
-Disallow: /en/
+
