@@ -2,29 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 <loc>https://arendacg.space/</loc>
-<lastmod>2020-04-14T17:03:35+00:00</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/en" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/uk" />
+<lastmod>2020-05-30T14:03:35+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
-<loc>https://arendacg.space/cars.html</loc>
-<lastmod>2020-04-14T17:03:35+00:00</lastmod>
+<loc>https://arendacg.space/cars</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/en/cars" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/uk/cars" />
+<lastmod>2020-05-30T14:03:35+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.90</priority>
 </url>
 <url>
-<loc>https://arendacg.space/contacts.html</loc>
-<lastmod>2020-03-20T15:31:04+00:00</lastmod>
+<loc>https://arendacg.space/contacts</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/en/contacts" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/uk/contacts" />
+<lastmod>2020-05-30T14:03:35+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://arendacg.space/reviews.html</loc>
-<lastmod>2020-03-20T15:31:04+00:00</lastmod>
+<loc>https://arendacg.space/reviews</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/en/reviews" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/uk/reviews" />
+<lastmod>2020-05-30T14:03:35+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://arendacg.space/index.html</loc>
-<lastmod>2020-04-14T17:03:35+00:00</lastmod>
+<loc>https://arendacg.space/index</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/en/index" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/uk/index" />
+<lastmod>2020-05-30T14:03:35+00:00</lastmod>
 <priority>0.64</priority>
 </url>
 </urlset>

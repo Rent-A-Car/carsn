@@ -47,3 +47,7 @@ border-radius:15px;
 .sticky-top{
 position: -webkit-sticky;
 }
+
+.dropdown-menu{
+    left: -100%;
+}

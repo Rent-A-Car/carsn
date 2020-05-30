@@ -12,11 +12,6 @@ window.location.reload(false);
 */
 
 
-
-
-
-
-
 $("#ID").on("click",function(){
 if (isgoodID == 1){
 
