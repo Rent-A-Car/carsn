@@ -10,10 +10,22 @@ $(".slka").on('click', function(event) {
 $(document).ready(function(){
     var userLang = (navigator.language || navigator.userLanguage).substring(0,2);
     var docLang = $('html').attr('lang');
+
+    switch(userLang) {
+  case 'uk':
+    // code block
+            console.log('uk');
+    break;
+  case 'ru':
+    // code block
+            console.log('ru');
+    break;
+  case 'en':
+    // code block
+            console.log('en');
+    break;
     
-    if (userLang != docLang){
-        console.log(userLang+'/'+docLang);
-        }
+}
     
     
       
