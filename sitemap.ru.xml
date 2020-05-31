@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"   
+>
+<url>
+<loc>https://arendacg.ru/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.ru/en" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.ru/uk" />
+<lastmod>2020-05-30T20:03:35+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://arendacg.ru/cars</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.ru/en/cars" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.ru/uk/cars" />
+<lastmod>2020-05-30T20:03:35+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.90</priority>
+</url>
+<url>
+<loc>https://arendacg.ru/contacts</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.ru/en/contacts" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.ru/uk/contacts" />
+<lastmod>2020-05-30T20:03:35+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://arendacg.ru/reviews</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.ru/en/reviews" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.ru/uk/reviews" />
+<lastmod>2020-05-30T20:03:35+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://arendacg.ru/index</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.ru/en/index" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.ru/uk/index" />
+<lastmod>2020-05-30T20:03:35+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+</urlset>
