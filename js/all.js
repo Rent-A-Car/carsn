@@ -68,14 +68,14 @@ function showLangAlert(lang){
 			var altitle="We also speak English";
 			var albody="If you want to use the English version of the site.";
 			var allink="Click here!";
-			var linkp="/en/"+window.location.pathname.split("/").pop();
+			var linkp="/en/"+window.location.pathname.split("/").pop()+location.search;
 
 			break;
 		case 'uk':
 			var altitle="Ми теж говоримо по-українськи";
 			var albody="Якщо ви хочете використовувати українську версію сайту.";
 			var allink="Натисніть тут!";
-			var linkp="/ua/"+window.location.pathname.split("/").pop();
+			var linkp="/ua/"+window.location.pathname.split("/").pop()+location.search;
 			break;
 		case 'ru':
 			var altitle="Мы также говорим по-русски";
