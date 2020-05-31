@@ -6,6 +6,20 @@ $(".slka").on('click', function(event) {
 });
 
 //on document load
+
+$(document).redy(function(){
+    var userLang = navigator.language || navigator.userLanguage; 
+    var docLang = $('html')[0].attr('lang');
+    
+      
+});
+
+
+function alrt(){
+    var userLang = navigator.language || navigator.userLanguage; 
+    var docLang = $('html')[0].attr('lang');
+    }
+
 /*
 $.ajax({ 
     url: "http://ajaxhttpheaders.appspot.com", 
