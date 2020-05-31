@@ -8,8 +8,8 @@ $(".slka").on('click', function(event) {
 //on document load
 
 $(document).redy(function(){
-    var userLang = navigator.language || navigator.userLanguage; 
-    var docLang = $('html')[0].attr('lang');
+    //var userLang = navigator.language || navigator.userLanguage; 
+    //var docLang = $('html')[0].attr('lang');
     
       
 });
@@ -18,6 +18,7 @@ $(document).redy(function(){
 function alrt(){
     var userLang = navigator.language || navigator.userLanguage; 
     var docLang = $('html')[0].attr('lang');
+    alert(docLang);
     }
 
 /*
