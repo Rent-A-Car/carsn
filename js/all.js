@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 function alrt(){
     var userLang = navigator.language || navigator.userLanguage; 
-    var docLang = $('html')[0].attr('lang');
+    var docLang = $('html').attr('lang');
     alert(docLang);
     }
 
