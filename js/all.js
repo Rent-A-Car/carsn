@@ -7,7 +7,7 @@ $(".slka").on('click', function(event) {
 
 //on document load
 
-$(document).redy(function(){
+$(document).ready(function(){
     //var userLang = navigator.language || navigator.userLanguage; 
     //var docLang = $('html')[0].attr('lang');
     
