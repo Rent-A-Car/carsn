@@ -8,8 +8,12 @@ $(".slka").on('click', function(event) {
 //on document load
 
 $(document).ready(function(){
-    var userLang = navigator.language || navigator.userLanguage; 
+    var userLang = (navigator.language || navigator.userLanguage).substring(0,2);
     var docLang = $('html').attr('lang');
+    
+    if (userLang != docLang){
+        console.log(userLang+'/'+docLang);
+        }
     
     
       
