@@ -8,18 +8,14 @@ $(".slka").on('click', function(event) {
 //on document load
 
 $(document).ready(function(){
-    //var userLang = navigator.language || navigator.userLanguage; 
-    //var docLang = $('html')[0].attr('lang');
+    var userLang = navigator.language || navigator.userLanguage; 
+    var docLang = $('html').attr('lang');
+    
     
       
 });
 
 
-function alrt(){
-    var userLang = navigator.language || navigator.userLanguage; 
-    var docLang = $('html').attr('lang');
-    alert(docLang);
-    }
 
 /*
 $.ajax({ 
