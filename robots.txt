@@ -10,8 +10,3 @@ Disallow: /ab.html
 Disallow: /cardetails.html
 Disallow: /en/cardetails.html
 Disallow: /ua/cardetails.html
-
-
-
-
-
