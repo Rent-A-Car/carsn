@@ -81,7 +81,7 @@ function showLangAlert(lang){
 			var altitle="Мы также говорим по-русски";
 			var albody="Если вы хотите использовать русскую версию сайта.";
 			var allink="Кликните здесь!";
-			var linkp=window.location.pathname.substring(3);
+			var linkp=window.location.pathname.substring(3)+location.search;
 			break;
 
 	}

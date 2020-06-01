@@ -4,6 +4,7 @@
 <head>
     <!-- Required meta tags -->
 
+<meta name="robots" content="noindex"> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="msapplication-TileImage" content="https://arendacg.space/img/logo.jpg" />
@@ -40,7 +41,6 @@
     "telephone": "+38268555972"
     }
     </script>
-<meta name="robots" content="noindex"> 
 </head>
 
 <body >
@@ -63,7 +63,13 @@ function findGetParameter(parameterName) {
         });
     return result;
 }
-carInfo(parseInt(findGetParameter("car")));
+
+if (parseInt(findGetParameter("car"))){
+	carInfo(parseInt(findGetParameter("car")));
+} else {
+location.href = "/ua/cars";
+}
+
 </script>
 
 

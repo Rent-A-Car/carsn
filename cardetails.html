@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+<meta name="robots" content="noindex"> 
     <!-- Required meta tags -->
 
     <meta charset="utf-8">
@@ -42,7 +43,6 @@
     "telephone": "+38268555972"
     }
     </script>
-<meta name="robots" content="noindex"> 
 </head>
 
 <body >
@@ -65,7 +65,12 @@ function findGetParameter(parameterName) {
         });
     return result;
 }
-carInfo(parseInt(findGetParameter("car")));
+if (parseInt(findGetParameter("car"))){
+	carInfo(parseInt(findGetParameter("car")));
+} else {
+location.href = "/cars";
+}
+
 </script>
 
 
