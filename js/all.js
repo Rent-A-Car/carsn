@@ -42,6 +42,7 @@ $(document).ready(function(){
 	if (getCookie("langok") != "ok"){
     var userLang = (navigator.language || navigator.userLanguage).substring(0,2);
     var docLang = $('html').attr('lang');
+	if ($('html').attr('nt') != "true"){
 	if (userLang != docLang){
     switch(userLang) {
   case 'uk':
@@ -55,7 +56,7 @@ $(document).ready(function(){
     break;
     
 }
-}
+}}
 }
     
       
