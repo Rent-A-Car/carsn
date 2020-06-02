@@ -197,17 +197,7 @@ document.write(`
 
    
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160826750-1"></script>
-   <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-   
 
-   gtag('config', 'UA-160826750-1', {
-   'page_title' : 'car `+i.toString()+`',
-   'page_path': '/car/`+i.toString()+`'
-   });
-   </script>
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta id="mcid" carid="`+i.toString()+`">
