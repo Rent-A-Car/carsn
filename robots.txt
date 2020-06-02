@@ -18,4 +18,4 @@ Allow: /cardetails?car=*
 Allow: /ua/cardetails.html?car=*
 Allow: /ua/cardetails?car=*
 Allow: /en/cardetails.html?car=*
-Allow: /en/cardetails?car=*
+Allow: /en/cardetails;?car=*
