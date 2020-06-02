@@ -10,14 +10,14 @@
 	<loc>https://arendacg.space/en/</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="https://arendacg.space/" />
 <xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua" />
-<lastmod>2020-06-02T18:49:35+00:00</lastmod>
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
 	<loc>https://arendacg.space/en/cars</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="https://arendacg.space/cars" />
 <xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/cars" />
-<lastmod>2020-06-02T18:49:35+00:00</lastmod>
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.90</priority>
 </url>
@@ -25,14 +25,14 @@
 	<loc>https://arendacg.space/en/contacts</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="https://arendacg.space/contacts" />
 <xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/contacts" />
-<lastmod>2020-06-02T18:49:35+00:00</lastmod>
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 	<loc>https://arendacg.space/en/reviews</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="https://arendacg.space/reviews" />
 <xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/reviews" />
-<lastmod>2020-06-02T18:49:35+00:00</lastmod>
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.80</priority>
 </url>
@@ -40,7 +40,65 @@
 	<loc>https://arendacg.space/en/index</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="https://arendacg.space/index" />
 <xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/index" />
-<lastmod>2020-06-02T18:49:35+00:00</lastmod>
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
 <priority>0.64</priority>
 </url>
+
+
+
+
+
+
+<url>
+	<loc>https://arendacg.space/en/cardetails?car=1</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/cardetails?car=1" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/cardetails?car=1" />
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
+<priority>0.90</priority>
+</url>
+
+
+
+<url>
+	<loc>https://arendacg.space/en/cardetails?car=2</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/cardetails?car=2" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/cardetails?car=2" />
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
+<priority>0.90</priority>
+</url>
+
+<url>
+	<loc>https://arendacg.space/en/cardetails?car=3</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/cardetails?car=3" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/cardetails?car=3" />
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
+<priority>0.90</priority>
+</url>
+
+<url>
+	<loc>https://arendacg.space/en/cardetails?car=4</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://arendacg.space/cardetails?car=4" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/cardetails?car=4" />
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
+<priority>0.90</priority>
+</url>
+
+
+<url>
+	<loc>https://arendacg.space/en/cardetails?car=5</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://arendacg.space/cardetails?car=5" />
+<xhtml:link rel="alternate" hreflang="uk" href="https://arendacg.space/ua/cardetails?car=5" />
+<lastmod>2020-06-02T22:00:35+00:00</lastmod>
+<priority>0.90</priority>
+</url>
+
+
+
+
+
+
+
+
+
+
 </urlset>
