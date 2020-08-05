@@ -116,15 +116,8 @@
 
         <!-- comments -->
         <div id="COM-" class="col-md-9">
-        <script>
-  function resizeIframe(obj) {
-    setTimeout(function(){
-    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-  },3500)
-  }
-            
-</script>
-<iframe src="https://arendacg.space/comments.html?newoad=uyv" frameborder="0" scrolling="no" onload="resizeIframe(this)" style="width: inherit; min-height: 529px;">
+
+<iframe src="https://arendacg.space/comments.html?newoad=uyv" frameborder="0" scrolling="no" onload="console.log(this)" sandbox="allow-scripts" style="width: inherit; min-height: 529px;">
 </iframe>
         </div>
         
@@ -139,8 +132,7 @@
         
 
 
-        <div class="bg-warning" id="fb-root"></div>
-        <script src="https://connect.facebook.net/en_US/sdk.js"></script>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script src="js/all.js"></script>
