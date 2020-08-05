@@ -116,7 +116,12 @@
 
         <!-- comments -->
         <div id="COM-" class="col-md-9">
-<iframe src="https://arendacg.space/comments.html?newoad=uyv" frameborder="0" scrolling="no" onload="resizeIframe(this)" style="width: inherit; min-height: 529px;">
+<iframe src="https://arendacg.space/comments.html?newoad=uyv" frameborder="0" scrolling="no" onload="function(this) {
+    setTimeout(function(){
+                          this.style.height = this.contentWindow.document.documentElement.scrollHeight + 'px';
+                                                                                                     },4000)
+    
+  }" style="width: inherit; min-height: 529px;">
 </iframe>
         </div>
         
