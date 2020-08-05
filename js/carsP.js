@@ -1,19 +1,4 @@
 var isgoodID=0;
-/*ga('send', 'pageview', "/car/"+($("#mcid").attr("carid")).toString());*/
-
-
-
-
-/*
-window.onhashchange = function() {
-window.location.reload(false);
-}
-
-*/
-
-
-
-
 
 
 
@@ -83,13 +68,7 @@ $.ajax({
     $("#IDt").html(data);
     isgoodID = 1;
 
-    gtag('event', 'reserve', {
-    'event_category': 'CAR',
-    'event_label': 'car-'+car+"/id-"+data,
-    'event_callback': function(){
-    console.log("sended");
-    }
-    });
+
     },
     error: function() {
 alert("Set id error");
@@ -194,9 +173,6 @@ document.write(`
 <!doctype html>
 <html>
    <head>
-
-   
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160826750-1"></script>
 
       <!-- Required meta tags -->
       <meta charset="utf-8">
