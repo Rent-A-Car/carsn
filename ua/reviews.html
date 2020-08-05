@@ -117,9 +117,16 @@
         <!-- comments -->
         <div id="COM" class="col-md-9">
 
-<div class="elfsight-app-e6409fcc-5109-4ea2-8c06-d0ead717b4de"></div>
-
-
+        <script>
+  function resizeIframe(obj) {
+    setTimeout(function(){
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  },3500)
+  }
+            
+</script>
+<iframe src="https://arendacg.space/comments.html?newoad=uyv" frameborder="0" scrolling="no" onload="resizeIframe(this)" style="width: inherit; min-height: 529px;">
+</iframe>
         </div>
         
 
@@ -140,9 +147,6 @@
         <script src="/js/all.js"></script>
         <script src="/js/reviews.js"></script>
 
-<script>
-$.getScript("https://apps.elfsight.com/p/platform.js")
-</script>
 
 
 </body>
