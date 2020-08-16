@@ -32,9 +32,12 @@ $('#ID').tooltip('show');
 
 $("#rs").on("click",function(){
 
-//$("#ID").html(genid());
+/*$("#ID").html(genid());
 $('#contactDialog').modal('show');
 setTimeout(reserve,10);
+ */   
+ document.location.href = "https://forms.gle/hBULfnWN1xf6BjCC8";   
+    
 });
 
 //more
@@ -306,7 +309,7 @@ document.write(`
       
       <div class="row mt-3" >
          <div class="col-12 d-flex justify-content-end" >
-            <button id="rs" class="btn btn-primary btn-lg" >To order</button>
+            <button id="rs" class="btn btn-primary btn-lg" >Get Info</button>
          </div>
       </div>
       
