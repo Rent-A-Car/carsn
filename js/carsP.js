@@ -22,9 +22,13 @@ $('#ID').tooltip('show');
 
 $("#rs").on("click",function(){
 
-//$("#ID").html(genid());
+/*$("#ID").html(genid());
 reserve();
 $('#contactDialog').modal('show');
+
+*/
+document.location.href = "https://forms.gle/hBULfnWN1xf6BjCC8";
+
 });
 
 //more
