@@ -32,9 +32,11 @@ $('#ID').tooltip('show');
 
 $("#rs").on("click",function(){
 
-//$("#ID").html(genid());
+/*$("#ID").html(genid());
 $('#contactDialog').modal('show');
 setTimeout(reserve,10);
+    */
+    document.location.href = "https://forms.gle/hBULfnWN1xf6BjCC8";
 });
 
 //more
