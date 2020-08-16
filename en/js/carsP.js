@@ -309,7 +309,7 @@ document.write(`
       
       <div class="row mt-3" >
          <div class="col-12 d-flex justify-content-end" >
-            <button id="rs" class="btn btn-primary btn-lg" >Get Info</button>
+            <button id="rs" class="btn btn-primary btn-lg" >To order</button>
          </div>
       </div>
       
