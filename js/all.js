@@ -73,7 +73,7 @@ function showLangAlert(lang){
 
 			break;
 		case 'uk':
-			var altitle="Ми теж говоримо по-українськи";
+			var altitle="Ми також розмовляємо українською";
 			var albody="Якщо ви хочете використовувати українську версію сайту.";
 			var allink="Натисніть тут!";
 			var linkp="/ua/"+window.location.pathname.split("/").pop()+location.search;
