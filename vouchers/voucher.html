@@ -19,7 +19,7 @@
 
 
 <div class="col-4 mt-4 text-right" >
-<span class="m-3 m-md-2 mt-0 mr-0 mb-0 " >Номер бронирования</span><span class="h2" id="IDbr" >#73931</span>
+<span class="m-3 m-md-2 mt-0 mr-0 mb-0" style="white-space: nowrap;">Номер бронирования</span><br><span class="h2" id="IDbr" >#73931</span>
 
 <hr>
 </div>
@@ -295,7 +295,7 @@ border-bottom: 4px solid black;
 $( document ).ready(function() {
 
 var data=JSON.parse(`
-{"id":"00001","sityF":"Tivat","sityT":"Budva","timeF":"11:35","timeT":"","placeF":"Аэропорт","placeT":"","dateF":"09.06.2020","dateT":"15.06.2020","auto":{"МОДЕЛЬ":"Mercedes B200 2.0cdi","ГОД":"2009","КПП":"автомат","ТОПЛИВО":"дизель"},"client":{"Имя":"Иван Караяни","Дата рождения":"01.10.1987","Авиарейс":"DP829"},"price":{"additionals":{"Аренда авто (7дн.)":"150€","Зелёная карта":"0€","Перегон с Будвы":"25€"},"all":"175€","prepay":"100€"}}
+{"id":"05.06/1","sityF":"Tivat","sityT":"Tivat","timeF":"10:55","timeT":"","placeF":"Аэропорт","placeT":"Аэропорт","dateF":"05.06.2021","dateT":"27.06.2021","auto":{"МОДЕЛЬ":"Mercedes B180 2.0cdi","ГОД":"2009","КПП":"механика","ТОПЛИВО":"дизель"},"client":{"Имя":"Иван Караяни","Дата рождения":"01.10.1987","Авиарейс":"DP829"},"price":{"additionals":{"Аренда авто (7дн.)":"150€","Зелёная карта":"0€","Перегон с Будвы":"25€"},"all":"175€","prepay":"100€"}}
 `);
 document.title="Ваучер-"+data.id;
 $("#IDbr").text("#"+data.id);
